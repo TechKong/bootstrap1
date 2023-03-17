@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    background: linear-gradient(rgba(28, 55, 94, 0.7), rgba(28, 55, 94, 0.7)), url(../bS/bg-masthead.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: relative;
+}
+
+form.d-flex{
+    
+    margin: 5px auto;
+    height: 60px;
+    font-size: 30px;
+}
+
+.navbar-brand{
+    font-size: 20px;
+}
+.center-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    line-height: 1.2;
+    width: 100%;
+    margin-top: 130px;
+    font-weight: 800;
+}
+
+.h1{
+    max-width: 500px;
+}
+
+.body-container{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.icon{
+    font-size: 4.5rem;
+}
+
+.lead{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.showcase{
+    width: 100%;
+    min-height: 30rem;
+    
+}
+
+.content{
+    
+    max-width: 100%;
+    flex-shrink: 0;
+   
+}
+
+.profile img{
+    margin: 20px;
+    background: white;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow:-3px 0 7px #f0efef73, 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+.comment{
+    font-size: 15px;
+}
+
+.end{
+    background: linear-gradient(rgba(28, 55, 94, 0.7), rgba(28, 55, 94, 0.7)), url(../bS/bg-masthead.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: relative;
+}
+
+li i{
+    padding-left: 15px;
+    font-size: 2rem;
+}
+

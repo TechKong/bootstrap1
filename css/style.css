@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins';
+    text-decoration: none;
+}
+
+.navbar-brand img{
+    width: 18%;
+}
+
+body{
+    position: relative;
+    
+}
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
+    background-position: center;
+    background-size: cover;
+     height: 100vh;
+    padding-top: 1rem;
+    position: relative;
+}
+
+.nav-link{
+    color: white;
+    font-weight: bold;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.nav-link:hover{
+    color: #fff;
+}
+
+.nav-item:last-child{
+    background-color: #ff6e42;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    transition: .5s;
+}
+
+.nav-item:last-child:hover{
+    border: 1px solid #ff6e42;
+    background-color: transparent;
+    transition: .5s;
+}
+
+.arrow{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    font-size: 15px;
+    color: white;
+    padding: 15px 16px;
+    background-color: #ff6e42;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.center-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    line-height: 1.2;
+    width: 100%;
+}
+
+.center-text h1{
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.center-text p{
+    letter-spacing: 11px;
+}
+.servicesSection, .testimonials-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (max-width:768px) {
+    .servicesSection, .testimonials-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+#services{
+  padding-bottom: 80px !important;
+  width: 100%;  
+}
+
+.service-boxes div{
+    border: 1px solid rgb(194, 193, 193);
+    
+}
+
+.service-boxes p{
+    font-size: 14px;
+}
+
+.box{
+    /*padding: 15px;*/
+    margin: 5px;
+}
+
+.about{
+    background-color: aliceblue;
+    padding: 80px;
+    margin: auto;
+    width: 100%;
+    padding-top: 80px;  
+}
+
+.article1 img{
+    width: 100%;
+}
+
+.article2 .image1, .image2{
+    width: 50%;
+    padding-top: 50px;
+}
+
+.latest-articles, h4{
+    font-size: 16px;
+}
+
+.latest-articles, img{
+    width: 100%;
+}
+
+.card-pack, a{
+    text-decoration: none;
+}
+
+.testimonials-card{
+    border: 1px solid rgb(194, 193, 193);
+}
+
+.card-title{
+    display: flex;
+}
+.card-title img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 20px; 
+    margin-top: 20px; 
+}
+.card-title, p{
+    font-size: 14px;
+}
+
+ .business{
+    font-size: 14px;
+}
+
+.name, .lead{
+    padding-top: 7px;
+    font-size: 17px;
+}
+.name{
+    line-height: 1.2;
+}
+
+ form {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../imgs/header.jpg) !important;
+    background-position: center;
+    background-size: contain;
+    height: auto;
+    position: relative;
+    z-index: 100;
+    padding-top: 30px;
+}
+
+form h3, form p{
+    color: white;
+}
+
+.form-control, textarea{
+    background: none;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid white;
+    width: 100%;
+}
+
+.btn{
+    padding: 5px 30px;
+    background-color: #ff6e42;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    transition: .5s; 
+}
+
+.btn:hover{
+    border: 1px solid #ff6e42;
+    background-color: transparent;
+    transition: .5s;
+}
+
